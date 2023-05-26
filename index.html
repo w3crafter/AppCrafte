@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+
+
+  <!--=============== Box Icons ===============-->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <!--==Fav-icon=========================================================-->
+  <link rel="icon" type="image/png" sizes="16x16" href="fav-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav-32x32.png">
+
+
+  <title>Appcrafte</title>
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/9.18.0/firebase-app-compat.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/9.18.0/firebase-auth-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-database-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-firestore-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-functions-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-messaging-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-storage-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-analytics-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-remote-config-compat.js"></script>
+  <script defer src="/__/firebase/9.18.0/firebase-performance-compat.js"></script>
+  <!--
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+  <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container header">
+      <a href="/" class="logo"><img src="appt.png" alt="logo" /></a>
+      <nav class="desktop-menu mobile-hidden">
+        <ul>
+          <li><a href="#home_section">Home</a></li>
+          <li><a href="#about_section">About</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+
+          <li><a href="meeting.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="trigger-menu" class="menu-icon desktop-hidden">
+        <i class="bx bx-menu"></i>
+      </div>
+
+      <!--==================== Navbar ====================-->
+    </div>
+  </header>
+  <div id="menu-mobile-container">
+    <div class="dark-part"></div>
+    <nav id="mobile-menu" class="menu mobile">
+      <ul>
+        <li><a href="#home_section">Home</a></li>
+        <li><a href="#about_section">About</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#meeting.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!--==================== Hero ====================-->
+  <section id="home_section" class="section flex-desktop flex-row-reverse container">
+    <div class="pop-animation">
+
+
+    
+
+
+      <img src="theone.png" class="theone" alt="hero image" />
+
+</div>
+
+
+    <div class="description">
+
+      <h1 class="title">Crafting <span>Successful</span> App Solutions</h1>
+      <p class="paragraph">
+        We are an Australian app development company that focuses on tailored and innovative solutions to help your business stay ahead of the competition.
+      </p>
+
+
+      <a href="meeting.html">
+        <button class="primary-btn">Set a Meeting</button>
+      </a>
+
+      <a href="index.html#pricing">
+        <button class="primary-btn">See Prices</button>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <div class="offer">
+      <h2>What we offer</h2>
+    </div>
+
+    <div class="maincard">
+
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>App Design</h2>
+            <ul class="card-features">
+              <li><i class="fa fa-check-ccle"></i> </li>
+
+              <li><i class="fa fa-check-circle"></i> Utilize best design practices to enhance user engagement</li>
+              <li><i class="fa fa-check-circle"></i>Create visually stunning and intuitive user interfaces</li>
+              <li><i class="fa fa-check-circle"></i> Incorporate brand identity elements to strengthen brand recognition</li>
+              <li><i class="fa fa-check-circle"></i> Prototypes for client feedback and approval.</li>
+            </ul>
+
+          </div>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>App Creation</h2>
+            <ul class="card-features">
+              <li><i class="fa fa-check-ccle"></i> </li>
+
+              <li><i class="fa fa-check-circle"></i> Customized app development tailored to your business needs</li>
+              <li><i class="fa fa-check-circle"></i>Ongoing support and maintenance to ensure optimal performance</li>
+              <li><i class="fa fa-check-circle"></i> Integration with business systems for seamless operation</li>
+              <li><i class="fa fa-check-circle"></i> Regularly update app for security fixes</li>
+
+            </ul>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="box">
+          <div class="content">
+            <h2>App Marketing</h2>
+            <ul class="card-features">
+              <li><i class="fa fa-check-ccle"></i> </li>
+
+              <li><i class="fa fa-check-circle"></i> Utilize best marketing practices to enhance user engagement</li>
+              <li><i class="fa fa-check-circle"></i>Optimize app ranking with data insights</li>
+              <li><i class="fa fa-check-circle"></i> Utilize app store optimization techniques to enhance your app's ranking</li>
+              <li><i class="fa fa-check-circle"></i> Design attractive app icons and screenshots to grab users' attention</li>
+            </ul>
+
+
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+  <!--==================== About ====================-->
+
+  <section id="about_section" class="section flex-desktop container">
+    <div class="imanimation">
+      <img src="Aboutus.png" alt="about image" />
+    </div>
+    <div class="description">
+
+
+      <h2 class="title">Tailored App Solutions for Success</h2>
+
+      <p class="paragraph">
+        At Appcrafte we build and design cutting-edge apps and offer marketing services to help your app reach its desired audience. Our experience provides comprehensive app development services, from idea to launch. <br><br>Let us help turn your
+        app ideas into reality and take your business to the next level.
+      </p>
+
+
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section id="pricing" class="pricing">
+    <div class="containerpricetitle">
+      <h2>Pricing </h2>
+
+
+
+    </div>
+    <div class="pricing-cards">
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3 class="card-title">Basic </h3>
+          <div class="card-price">$1400</div>
+        </div>
+        <ul class="card-features">
+          <li><i class="fa fa-check-circle"></i> 3 Screens Limit</li>
+          <li><i class="fa fa-check-circle"></i> Design Included</li>
+          <li><i class="fa fa-check-circle"></i> Limited Customisation</li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+        </ul>
+        <a href="https://buy.stripe.com/dR65lM6i5dlO1W06ot" class="btn-rounded">Select Package</a>
+      </div>
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3 class="card-title">Standard </h3>
+          <div class="card-price">$1800</div>
+        </div>
+        <ul class="card-features">
+          <li><i class="fa fa-check-circle"></i> 8 Screen Limit</li>
+          <li><i class="fa fa-check-circle"></i> Design Included</li>
+          <li><i class="fa fa-check-circle"></i> Unlimited Customisation</li>
+          <li><i class="fa fa-check-circle"></i> Basic App marketing Plan</li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+          <li><i class="fa fa-check-ircle"></i> </li>
+          <li><i class="fa fa-ceck-circle"></i> </li>
+
+
+
+        </ul>
+        <a href="https://buy.stripe.com/eVaeWm5e1bdGgQUaEI" class="btn-rounded">Select Package</a>
+      </div>
+      <div class="pricing-card">
+        <div class="card-header">
+          <h3 class="card-title">Pro </h3>
+
+          <div class="card-price">$2300</div>
+        </div>
+        <div class="pricing-table">
+
+
+        </div>
+        <ul class="card-features">
+          <li><i class="fa fa-check-circle"></i> Unlimited Screens</li>
+          <li><i class="fa fa-check-circle"></i> Design Included</li>
+          <li><i class="fa fa-check-circle"></i> Unlimited Customisation</li>
+          <li><i class="fa fa-check-circle"></i> Professional App marketing plan</li>
+          <li><i class="fa fa-check-circle"></i> App Pitch-Book Presentation</li>
+          <li><i class="fa fa-check-circle"></i> App Website Landing page</li>
+        </ul>
+        <a href="https://buy.stripe.com/bIYdSi9uh0z27gk5kn" class="btn-rounded">Select Package</a>
+
+      </div>
+
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+  </section>
+
+
+  </section class="enquire">
+  <div class="item">
+
+    <p id="pricingsubtitle">All Prices are in Australian Dollars (AUD)</p>
+    <a href="mailto:sales@appcrafte.com">
+      <button class="primary-btn">Enquire</button>
+    </a>
+
+  </div>
+
+
+  </section>
+
+  <footer>
+    <div class="subscribe-section">
+      <h2>Subscribe for Updates</h2>
+      <form id="subscribe-form" action="/subscribe" method="POST">
+        <input type="email" name="email" placeholder="Enter email here">
+        <button type="submit"><i class="fa fa-paper-plane"></i></button>
+      </form>
+    </div>
+    <div class="social-icons">
+      <a href="mailto:sales@appcrafte.com"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=100090994700433"><i class="fab fa-facebook-f"></i></a>
+    </div>
+  </footer>
+
+
+
+
+  <!--===== GSAP =====-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+  <!--==================== Main JavaScript File ====================-->
+  <script src="assets/js/main.js"></script>
+  <script src="server.js"></script>
+
+
+
+</body>
+
+</html>
